@@ -49,4 +49,4 @@ document.querySelector("#voice").addEventListener("change", () => {
 document.querySelector("#read").addEventListener("click", () => {
     speech.text = document.getElementById("script").textContent;
     window.speechSynthesis.speak(speech);
-  });
+});
